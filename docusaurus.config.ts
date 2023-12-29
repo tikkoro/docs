@@ -62,6 +62,10 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         sitemap: {},
+        gtag: {
+          trackingID: "G-CFZYC2YRME",
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -125,6 +129,10 @@ const config: Config = {
             {
               label: "Blog",
               to: "/blog",
+            },
+            {
+              label: "Privacy",
+              to: "/privacy",
             },
             {
               label: "GitHub",
