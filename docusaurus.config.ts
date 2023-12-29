@@ -61,6 +61,7 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        sitemap: {},
       } satisfies Preset.Options,
     ],
   ],
