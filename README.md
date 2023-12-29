@@ -35,7 +35,7 @@ $ USE_SSH=true pnpm deploy:docs
 Not using SSH:
 
 ```
-$ GIT_USER=<Your GitHub username> pnpm deploy:docs
+$ GIT_USER=<Your GitHub username> GIT_USER_NAME=<Your local git username> GIT_USER_EMAIL=<Your local git email> pnpm deploy:docs
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
